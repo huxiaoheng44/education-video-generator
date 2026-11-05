@@ -1,0 +1,20 @@
+# runtime artifacts
+jobs/
+jobs.sqlite3
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# secrets
+.env
+
+# os
+.DS_Store
+Thumbs.db
+
+# generated output & scratch (mathvideo rendered output, smoke tests)
+mathvideo/output/
+smoke.mp3
+tts_smoke.py
